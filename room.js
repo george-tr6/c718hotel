@@ -1,9 +1,11 @@
 
 
 class Room{
-	constructor(){
+	constructor(hotelReference){
 		this.occupant = null; //a customer
-		this.hotel = null;
+		this.hotel = this.hotel;
+
+		this.hotel.name
 	}
 	addOccupant( customer ){
 

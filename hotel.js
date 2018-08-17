@@ -15,7 +15,7 @@ class Hotel{
 	}
 	//make a room and add to rooms array
 	addRoom(){
-
+		
 	}
 	//add staff to the hotel
 	hireStaff( name ) {
