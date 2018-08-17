@@ -8,16 +8,17 @@ class Hotel{
 	}
 	//make a customer object with the given name and add to a room.  need to add to a room with no occupants
 	checkInCustomer( name ){
-
+		var customer = new Customer(name);
 	}
 	checkOutCustomer(){
 
 	}
 	//make a room and add to rooms array
-	addRoom(){
-		
-	}
-	//add staff to the hotel
+	addRoom() {
+        var newRoom = new Room(this);
+        this.rooms.push(newRoom)
+    }
+	//add staff to the hotelmarr
 	hireStaff( name ) {
 
 	}
