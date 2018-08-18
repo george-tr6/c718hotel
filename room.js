@@ -15,4 +15,13 @@ class Room{
 	getRoomService(food){
 		this.hotel.getKitchenService();
 	}
+	checkIfOccupied(){
+		var isOccupied = null;
+		if(this.occupant){
+			isOccupied = true;
+		}else {
+			isOccupied = false;
+		}
+		return isOccupied;
+	}
 }
